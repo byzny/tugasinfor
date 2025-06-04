@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #0077b6, #00b4d8);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: aqua;
+    transition: 1s;
+    border-radius: 5px;
+  }
+  
+  .pertama{
+    padding: 60px 20px;
+    text-align: center;
+   background-color: #d7ef80;
+    background-size: cover;
+  }
+  
+  .pertama h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  body {
+  font-family: 'Comic Sans MS', cursive;
+  margin: 0;
+  background: linear-gradient(to right, #ffe29f, #ffa99f);
+  color: #333;
+}
+
+header {
+  background-color: #f77f00;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8em;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.facility-card {
+  background-color: #fffbea;
+  border: 2px dashed #f4a261;
+  border-radius: 15px;
+  padding: 25px;
+  width: 300px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.facility-card:hover {
+  transform: scale(1.05);
+  background-color: #ffeaa7;
+}
+
+.facility-card h2 {
+  margin-top: 0;
+  color: #d62828;
+  font-size: 1.4em;
+}
+
+.facility-card p {
+  font-size: 1em;
+  margin-top: 8px;
+}
+
+.footer {
+  text-align: center;
+  padding: 25px;
+  font-size: 0.95em;
+  background-color: #f7e0c5;
+  color: #444;
+}

@@ -1,0 +1,152 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #0077b6, #00b4d8);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.navbar ul li a:hover {
+   background-color: aqua;
+    transition: 1s;
+    border-radius: 5px;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+  }
+  
+  .containertwo {
+    background-color: rgb(116, 177, 107);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    margin: 4px;
+  }
+  
+  .infotwo {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .info p {
+    margin: 8px 0;
+  }
+  .container {
+    background-color: rgb(120, 236, 126);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    margin: 4px;
+  }
+  
+  .info {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .info p {
+    margin: 8px 0;
+  }
+
+  .containerthree {
+    background-color: rgb(54, 129, 42);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    margin: 4px;
+  }
+  
+  .infotwo {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .info p {
+    margin: 8px 0;
+  }
+
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e90ff;
+    color: white;
+  }
